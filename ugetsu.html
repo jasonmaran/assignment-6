@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ugetsu</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="ugetsu.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	</head>
+	<body>
+
+		<div class="image">
+
+		   <div class="title">
+			 <p class="ugetsu">ugetsu monogatari</p>
+			 <p class="film">a film by</p>
+			 <p class="kenji">kenji mizoguchi</p>
+		   </div>	
+
+		   <div class="lowerleft">
+			<p>tales of the pale,<br>silvery moon</p>
+		   </div>
+
+		</div>  
+
+		<script>
+		$(document).ready(function() {
+		 $(".lowerleft").hide();
+		 $("body").click(function() {
+		   $(".title").fadeOut(5000);
+		   $(".lowerleft").fadeIn(7000);
+		   });
+	    });
+		</script>
+
+	</body>
+</html>	
+		
