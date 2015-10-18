@@ -1,0 +1,45 @@
+body {
+    font-family: "papyrus";
+    color: #dadada;
+	background-color: black;
+	width: 978px;
+	margin: 0 auto;
+	font-weight: bold;
+}
+
+.image {
+	background-image: url("ugetsu.png");
+	position: relative;
+	width: 960px;
+	height: 720px;
+	margin: 0 auto;
+}
+
+.title {
+	width: 200px;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+
+.ugetsu {
+	font-size: 52px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.film {
+	font-size: 24px;
+}
+
+.kenji {
+	font-size: 34px;
+}
+
+.lowerleft {
+	font-size: 40px;
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+}
+
